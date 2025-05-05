@@ -48,9 +48,7 @@ function enqueue_custom_scripts()
     // Enqueue miniatures.js
     wp_enqueue_script('miniatures-script', get_template_directory_uri() . '/assets/js/miniatures.js', array('jquery'), '1.0.0', true);
 
-    // Enqueue lightbox.js
-    wp_enqueue_script('lightbox-script', get_template_directory_uri() . '/assets/js/lightbox.js', array('jquery'), '1.0.0', true);
-
+    
     // Enqueue filtre.js
     wp_enqueue_script('filtre-script', get_template_directory_uri() . '/assets/js/filtre.js', array('jquery'), '1.0.0', true);
 

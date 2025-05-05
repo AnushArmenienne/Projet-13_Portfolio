@@ -1509,3 +1509,73 @@
 [27-Apr-2025 22:23:04 UTC] PHP Warning:  Undefined variable $reference in C:\Users\Lima\Local Sites\portfolioanush\app\public\wp-content\themes\MotaTheme\single-photo.php on line 71
 [28-Apr-2025 07:01:49 UTC] PHP Warning:  Undefined variable $reference in C:\Users\Lima\Local Sites\portfolioanush\app\public\wp-content\themes\MotaTheme\single-photo.php on line 71
 [28-Apr-2025 07:03:13 UTC] PHP Warning:  Undefined variable $reference in C:\Users\Lima\Local Sites\portfolioanush\app\public\wp-content\themes\MotaTheme\single-photo.php on line 71
+[28-Apr-2025 08:39:49 UTC] PHP Warning:  Undefined variable $reference in C:\Users\Lima\Local Sites\portfolioanush\app\public\wp-content\themes\MotaTheme\single-photo.php on line 71
+[04-May-2025 23:36:23 UTC] Filter values: Array
+(
+    [category] => css
+    [format] => 
+    [years] => 
+)
+
+[04-May-2025 23:36:23 UTC] Filter values: Array
+(
+    [category] => css
+    [format] => 
+    [years] => 
+)
+
+[04-May-2025 23:36:23 UTC] Photo ID: 119
+[04-May-2025 23:36:23 UTC] Photo ID: 119
+[04-May-2025 23:36:23 UTC] Reference: bf2400
+[04-May-2025 23:36:23 UTC] Reference: bf2400
+[04-May-2025 23:36:23 UTC] Photo ID: 122
+[04-May-2025 23:36:23 UTC] Photo ID: 122
+[04-May-2025 23:36:23 UTC] Reference: bf2387
+[04-May-2025 23:36:23 UTC] Reference: bf2387
+[04-May-2025 23:36:23 UTC] Photo ID: 159
+[04-May-2025 23:36:23 UTC] Photo ID: 159
+[04-May-2025 23:36:23 UTC] Reference: bf2397
+[04-May-2025 23:36:23 UTC] Reference: bf2397
+[04-May-2025 23:36:23 UTC] Photo ID: 155
+[04-May-2025 23:36:23 UTC] Photo ID: 155
+[04-May-2025 23:36:23 UTC] Reference: bf2398
+[04-May-2025 23:36:23 UTC] Reference: bf2398
+[04-May-2025 23:36:23 UTC] Photo ID: 153
+[04-May-2025 23:36:23 UTC] Photo ID: 153
+[04-May-2025 23:36:23 UTC] Reference: bf2399
+[04-May-2025 23:36:23 UTC] Reference: bf2399
+[05-May-2025 07:01:19 UTC] Filter values: Array
+(
+    [category] => css
+    [format] => 
+    [years] => 
+)
+
+[05-May-2025 07:01:19 UTC] Filter values: Array
+(
+    [category] => css
+    [format] => 
+    [years] => 
+)
+
+[05-May-2025 07:01:19 UTC] Photo ID: 119
+[05-May-2025 07:01:19 UTC] Photo ID: 119
+[05-May-2025 07:01:19 UTC] Reference: bf2400
+[05-May-2025 07:01:19 UTC] Reference: bf2400
+[05-May-2025 07:01:19 UTC] Photo ID: 122
+[05-May-2025 07:01:19 UTC] Photo ID: 122
+[05-May-2025 07:01:19 UTC] Reference: bf2387
+[05-May-2025 07:01:19 UTC] Reference: bf2387
+[05-May-2025 07:01:19 UTC] Photo ID: 159
+[05-May-2025 07:01:19 UTC] Photo ID: 159
+[05-May-2025 07:01:19 UTC] Reference: bf2397
+[05-May-2025 07:01:19 UTC] Reference: bf2397
+[05-May-2025 07:01:19 UTC] Photo ID: 155
+[05-May-2025 07:01:19 UTC] Photo ID: 155
+[05-May-2025 07:01:19 UTC] Reference: bf2398
+[05-May-2025 07:01:19 UTC] Reference: bf2398
+[05-May-2025 07:01:19 UTC] Photo ID: 153
+[05-May-2025 07:01:19 UTC] Photo ID: 153
+[05-May-2025 07:01:19 UTC] Reference: bf2399
+[05-May-2025 07:01:19 UTC] Reference: bf2399
+[05-May-2025 07:01:26 UTC] PHP Warning:  Undefined variable $reference in C:\Users\Lima\Local Sites\portfolioanush\app\public\wp-content\themes\MotaTheme\single-photo.php on line 71

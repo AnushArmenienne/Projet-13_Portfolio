@@ -4,7 +4,7 @@
 <?php get_header(); ?>
 
 
-<section>
+<section class="herocontainer">
 <?php get_template_part('template-parts/banner'); ?>
 </section>
 

@@ -1,12 +1,12 @@
-<div class="banner">
-  <div class="banner1 taille wrapper">
+<div class="banner ">
+  <div class="banner1 wrapper">
     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Mains.png" alt="Mains">
   </div>
   <div>
     <p class="citation"> "Il y a deux types de développeurs : ceux qui comprennent le code et ceux qui débuggent..."
     </p>
   </div>
-  <div class="banner1 taille2">
+  <div class="banner1 wrapper">
     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/moi.png" alt="moi">
   </div>
 
