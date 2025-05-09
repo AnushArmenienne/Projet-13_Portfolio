@@ -1579,3 +1579,11 @@
 [05-May-2025 07:01:19 UTC] Reference: bf2399
 [05-May-2025 07:01:19 UTC] Reference: bf2399
 [05-May-2025 07:01:26 UTC] PHP Warning:  Undefined variable $reference in C:\Users\Lima\Local Sites\portfolioanush\app\public\wp-content\themes\MotaTheme\single-photo.php on line 71
+[05-May-2025 08:02:20 UTC] PHP Warning:  Undefined variable $reference in C:\Users\Lima\Local Sites\portfolioanush\app\public\wp-content\themes\MotaTheme\single-photo.php on line 71
+[09-May-2025 07:27:51 UTC] Filter values: Array
+(
+    [category] => 
+    [format] => 
+    [years] => 
+)
+

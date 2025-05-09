@@ -18,24 +18,6 @@
 
 <button>Mon Parcours</button>
 
-<!-- fleche vers le bas animé -->
-<div class="absolut-link">
-  <a href="#suite">
-    <svg width="70" version="1.1" id="icons_1_" xmlns="http://www.w3.org/2000/svg" x="0" y="0"
-      viewBox="0 0 128 128" style="enable-background:new 0 0 128 128" xml:space="preserve">
-      <g id="row2_1_">
-        <g id="_x35__3_">
-          <path
-            d="M64 .3C28.7.3 0 28.8 0 64s28.7 63.7 64 63.7 64-28.5 64-63.7S99.3.3 64 .3zm0 121C32.2 121.3 6.4 95.7 6.4 64 6.4 32.3 32.2 6.7 64 6.7s57.6 25.7 57.6 57.3c0 31.7-25.8 57.3-57.6 57.3zm21.7-63.2L70.4 70.3V41.7c0-2.2-2.3-3.2-4.4-3.2h-4c-2.2 0-3.9 1.8-3.9 3.9v28.4L42.3 58.1c-2.2 0-3.9 1.8-3.9 3.9v7.1L64 95.8l25.6-26.7V62c0-2.2-1.8-3.9-3.9-3.9z"
-            id="down_1_" />
-        </g>
-      </g>
-    </svg>
-  </a>
-</div>
-
-<!-- fin de la fleche animé vers le bas -->
-
 <section class="timeline">
   <ul>
     <li>

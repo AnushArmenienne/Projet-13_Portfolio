@@ -16,4 +16,9 @@
   <?php get_template_part('template-parts/section-photo'); ?>
 </section>
 
+<section>
+<?php get_template_part('template-parts/cv'); ?>
+</section>
+
+
 <?php get_footer(); ?>

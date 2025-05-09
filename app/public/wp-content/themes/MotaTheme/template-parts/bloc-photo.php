@@ -1,7 +1,7 @@
 <?php
 
 $photoUrl = get_field('photo');
-$photoFullUrl = get_field('photo_en_grand_format'); // Assurez-vous d'avoir ce champ ACF pour la version haute résolution
+$photoFullUrl = get_field('photo_en_grand_format'); 
 $photo_titre = get_the_title();
 $post_url = get_permalink();
 $categories = get_the_terms(get_the_ID(), 'categorie');
@@ -12,7 +12,7 @@ if ($categories && !is_wp_error($categories)) {
     $categorie_name = '';
 }
 
-$reference = get_field('reference'); // Récupérez le champ ACF pour la référence
+$reference = get_field('reference');
 
 ?>
 
