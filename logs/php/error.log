@@ -1587,3 +1587,4 @@
     [years] => 
 )
 
+[12-May-2025 08:00:09 UTC] PHP Warning:  Undefined variable $reference in C:\Users\Lima\Local Sites\portfolioanush\app\public\wp-content\themes\MotaTheme\single-photo.php on line 71

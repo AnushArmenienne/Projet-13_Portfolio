@@ -334,7 +334,7 @@ div#wpcf7-f31-o1 {
 
 
 .logo {
-  animation: AnimationToUp 2s; 
+  animation: AnimationToUp 2s;
   transform: rotate(15deg);
   width: 200px;
   height: auto;
@@ -374,6 +374,8 @@ footer {
   padding-top: 10px;
 }
 
+
+
 /* menu du footer */
 .footer-nav {
   display: flex;
@@ -406,6 +408,7 @@ footer {
   letter-spacing: 0.5px;
   font-size: large;
 }
+
 /* le formulaire de contact */
 .form-contact {
   display: flex;
@@ -1029,7 +1032,6 @@ body {
   }
 }
 
-/* Bouton de contact */
 #boutonContact {
   width: 272px;
   height: 50px;
@@ -1216,19 +1218,6 @@ body {
   }
 }
 
-
-
-
-.banner1 {
-
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-
-}
-
 .header_container#site-navigation {
   display: flex;
   margin: 0 auto;
@@ -1241,7 +1230,24 @@ body {
 
 }
 
+.banner {
 
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+}
+
+.banner1 {
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
 
 .banner1 img {
 
@@ -1274,14 +1280,7 @@ body {
 }
 
 
-.banner {
 
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
-  flex-direction: column;
-}
 
 
 
@@ -1303,7 +1302,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   overflow: hidden;
-  /* Important pour le clip-path sur le pseudo-élément */
+
 }
 
 .citation::before {
@@ -1314,7 +1313,7 @@ body {
   top: 0;
   left: 0;
   opacity: 0;
-  /* Initialement invisibles */
+
   transition: opacity 0.3s ease-in-out;
 }
 
@@ -1326,7 +1325,7 @@ body {
   bottom: 0;
   right: 0;
   opacity: 0;
-  /* Initialement invisibles */
+
   transition: opacity 0.3s ease-in-out;
 }
 
@@ -1334,17 +1333,17 @@ body {
 .citation::after {
   opacity: 0;
   transition-delay: 0.2s;
-  /* Délai pour apparaître après le fond */
+
 }
 
 .citation::after,
 .citation::before {
   z-index: 2;
-  /* Pour être au-dessus du fond révélé */
+
 }
 
 .citation::backdrop {
-  /* Note: backdrop n'est pas supporté partout, on utilisera un autre pseudo-élément */
+
   content: '';
   position: absolute;
   top: 0;
@@ -1352,21 +1351,21 @@ body {
   width: 100%;
   height: 100%;
   background: linear-gradient(to right, #d19808, black);
-  /* Même dégradé que le texte */
+
   opacity: 0.3;
-  /* Légère opacité pour l'effet */
+
   clip-path: circle(0% at 50% 50%);
   transition: clip-path 0.5s ease-in-out;
   z-index: -1;
-  /* Derrière le texte et les guillemets */
+
 }
 
 .citation:hover::backdrop {
-  /* Utilisation de ::backdrop si supporté */
+
   clip-path: circle(150% at 50% 50%);
 }
 
-/* Alternative si ::backdrop n'est pas bien supporté (utilisation d'un autre pseudo-élément) */
+
 .citation::after-bg {
   content: '';
   position: absolute;
@@ -1375,13 +1374,13 @@ body {
   width: 100%;
   height: 100%;
   background: linear-gradient(to right, #d19808, black);
-  /* Même dégradé que le texte */
+
   opacity: 0.3;
-  /* Légère opacité pour l'effet */
+
   clip-path: circle(0% at 50% 50%);
   transition: clip-path 0.5s ease-in-out;
   z-index: -1;
-  /* Derrière le texte et les guillemets */
+
 }
 
 .citation:hover::after-bg {
@@ -1446,7 +1445,7 @@ h1 {
   gap: 10px;
 }
 
-/*l'image principale dans le bloc */
+
 #load-moreContainer {
   width: 100%;
   display: flex;
@@ -1455,7 +1454,7 @@ h1 {
   align-items: center;
 }
 
-/* le bouton "Plus d'image" */
+/* le bouton "Chargerplus" */
 
 #btnLoad-more {
   padding: 20px 50px;
@@ -1489,17 +1488,14 @@ h1 {
 
 #btnLoad-more:hover::after {
   transform: rotate(150deg);
-  /* Permet de tourner l'effet arc-en-ciel */
+
 }
 
 #btnLoad-more:hover {
   transform: translate(0, -6px);
-  /* Décale en haut */
+
 
 }
-
-
-
 
 
 
@@ -1589,7 +1585,6 @@ h1 {
   margin-left: auto;
 }
 
-/* Masque le champ de recherche de Select2 */
 .select2-dropdown .select2-search--dropdown .select2-search__field {
   display: none;
 }
@@ -1691,7 +1686,6 @@ h1 {
 .fab.fa-linkedin {
   font-size: 24px;
   color: #0077B5;
-  /* Couleur LinkedIn */
   margin-right: 5%;
 }
 
@@ -1719,7 +1713,7 @@ button::after {
   z-index: -1;
   transition: clip-path 0.5s ease-in-out;
   clip-path: circle(0% at 50% 50%);
-  /* Cercle initialement invisible au centre */
+
 }
 
 button {
@@ -1738,7 +1732,7 @@ button {
   border-radius: 15px;
 
   clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
-  /* Ton clip-path de base */
+
 
   background-position: center;
   top: 3px;
@@ -1746,12 +1740,12 @@ button {
 
 button:hover::after {
   clip-path: circle(150% at 50% 50%);
-  /* Grand cercle révélant le fond */
+
 }
 
 button:hover {
   color: #000;
-  /* Change la couleur du texte pour la lisibilité */
+
   transform: scale(1.05);
 
 }
@@ -1795,22 +1789,54 @@ button:active {
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
   }
-}/* TIMELINE FLAT DESIGN AVEC TES COULEURS (TITRES #d19808)
+}
+
+/* TIMELINE FLAT DESIGN
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .timeline ul {
-  background: #f9f9f9; /* Un fond clair et neutre */
-  padding: 30px 0; /* Réduction du padding vertical */
+  background: #f9f9f9;
+  padding: 30px 0;
   margin-left: 2%;
 }
+
+@media screen and (max-width: 426px) {
+  .timeline ul {
+    margin-left: -200px;
+  }
+
+  .footer-menu li a {
+    font-size: 15px;
+  }
+}
+
+
+@media screen and (max-width: 376px) {
+
+  .footer-menu li {
+    padding: 0 1px;
+
+  }
+.banner1, .citation {
+  width: 375px;
+}
+.citation {
+  padding: 0;
+  
+}
+}
+
+
+
+
 
 .timeline ul li {
   list-style-type: none;
   position: relative;
-  width: 4px; /* Ligne plus fine */
+  width: 4px;
   margin: 0 auto;
-  padding-top: 40px; /* Ajustement du padding pour l'alignement */
-  background: #ccc; /* Couleur neutre pour la ligne */
+  padding-top: 40px;
+  background: #ccc;
 }
 
 .timeline ul li::after {
@@ -1819,97 +1845,97 @@ button:active {
   left: 50%;
   bottom: 0;
   transform: translateX(-50%);
-  width: 12px; /* Point plus petit */
-  height: 12px; /* Point plus petit */
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
-  background: #d19808; /* Ta couleur pour le point */
-  border: 2px solid #fff; /* Ajout d'une bordure blanche */
+  background: #d19808;
+  border: 2px solid #fff;
   z-index: 1;
 }
 
 .timeline ul li div {
   position: relative;
   bottom: 0;
-  width: 300px; /* Réduction de la largeur des blocs */
-  padding: 10px; /* Réduction du padding interne */
-  background: #fff; /* Fond blanc pour les blocs */
-  border-radius: 4px; /* Bords légèrement arrondis */
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; /* Ombre légère et discrète */
+  width: 300px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 30px 0px, rgba(0, 0, 0, 0.1) 0px 0px 0px 1px;
 }
 
 .timeline ul li div::before {
   content: "";
   position: absolute;
-  bottom: 4px; /* Ajustement de la position de la flèche */
+  bottom: 4px;
   width: 0;
   height: 0;
   border-style: solid;
 }
 
 .timeline ul li:nth-child(odd) div {
-  left: 30px; /* Réduction de la marge */
+  left: 30px;
 }
 
 .timeline ul li:nth-child(odd) div::before {
-  left: -10px; /* Réduction de la position de la flèche */
-  border-width: 5px 10px 5px 0; /* Flèche plus petite */
-  border-color: transparent #fff transparent transparent; /* Couleur de la flèche assortie au fond du bloc */
+  left: -10px;
+  border-width: 5px 10px 5px 0;
+  border-color: transparent #fff transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
-  left: -334px; /* Ajustement pour la nouvelle largeur */
+  left: -334px;
 }
 
 .timeline ul li:nth-child(even) div::before {
-  right: -10px; /* Réduction de la position de la flèche */
-  border-width: 5px 0 5px 10px; /* Flèche plus petite */
-  border-color: transparent transparent transparent #fff; /* Couleur de la flèche assortie au fond du bloc */
+  right: -10px;
+  border-width: 5px 0 5px 10px;
+  border-color: transparent transparent transparent #fff;
 }
 
 time {
   display: block;
-  font-size: 1rem; /* Taille de police plus petite */
+  font-size: 1rem;
   font-weight: bold;
-  margin-bottom: 5px; /* Réduction de la marge */
-  color: #d19808; /* Ta couleur pour le texte du titre */
+  margin-bottom: 5px;
+  color: #d19808;
 }
 
 .timeline ul li div p {
-  font-size: 0.9rem; /* Taille de police pour le contenu */
-  color: #666; /* Couleur de texte plus claire */
+  font-size: 0.9rem;
+  color: #666;
 }
 
 /* EFFETS (discrets pour le flat design)
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+––––––––––––––––––––––––––––––––– */
 
 .timeline ul li::after {
   transition: background 0.3s ease-in-out, border-color 0.3s ease-in-out;
-  background: #ccc; /* Couleur de base du point */
-  border-color: #f9f9f9; /* Couleur de base de la bordure */
+  background: #ccc;
+  border-color: #f9f9f9;
 }
 
 .timeline ul li.in-view::after {
-  background: #d19808; /* Ta couleur active du point */
-  border-color: #fff; /* Couleur active de la bordure */
+  background: #d19808;
+  border-color: #fff;
 }
 
 .timeline ul li div {
   visibility: hidden;
   opacity: 0;
   transition: all 0.3s ease-in-out;
-  transform: translateY(20px); 
+  transform: translateY(20px);
 }
 
 .timeline ul li:nth-child(odd) div {
-  transform: translateX(50px); 
+  transform: translateX(50px);
 }
 
 .timeline ul li:nth-child(even) div {
-  transform: translateX(-50px); 
+  transform: translateX(-50px);
 }
 
 .timeline ul li.in-view div {
-  transform: translateY(0); 
+  transform: translateY(0);
   visibility: visible;
   opacity: 1;
 }
@@ -1917,17 +1943,17 @@ time {
 /* GENERAL MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 768px) {
   .timeline ul li div {
     width: 200px;
   }
 
   .timeline ul li:nth-child(even) div {
-    left: -234px; 
+    left: -234px;
   }
 }
 
-@media screen and (max-width: 576px) { 
+@media screen and (max-width: 576px) {
   .timeline ul li {
     margin-left: 15px;
   }
@@ -1947,10 +1973,6 @@ time {
   }
 }
 
-
-
-
-
 .herocontainer {
   width: 100%;
   display: flex;
@@ -1958,6 +1980,3 @@ time {
   justify-content: center;
   align-items: center;
 }
-
-
-
