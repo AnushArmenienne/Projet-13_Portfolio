@@ -12,8 +12,66 @@
 
 </div>
 
+<div class="fixed bottom-8 left-8 z-30">
+</div>
+<div class="color-palette-control">
+  <button id="toggle-palette-btn" class="toggle-palette-btn" tabindex="0">
+    <div class="palette-icon">
+      <div class="palette-slice"></div>
+      <div class="palette-slice"></div>
+      <div class="palette-slice"></div>
+      <div class="palette-slice"></div>
+      <div class="palette-slice"></div>
+      <div class="palette-slice"></div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-paintbrush w-6 h-6">
+      <path d="M18.37 2.63 14 7l-3-3 7-7Z" />
+      <path d="m9 8c2-2 3.5-7 4 10 2-2 8 2 1 7-2-2-6 1-7-7Z" />
+      <path d="M14.5 17.5 15 15" />
+    </svg>
+  </button>
+  <div id="color-palette" class="color-palette">
+    <div class="color-option" style="background-color:rgb(255, 255, 255);" data-color="rgb(255, 255, 255)" title="Blanc"></div>
+    <div class="color-option" style="background-color:rgb(224, 209, 123);" data-color="rgb(224, 209, 123)" title="jaune"></div>
+    <div class="color-option" style="background-color:rgb(230, 251, 7);" data-color="rgb(230, 251, 7)" title="Saumon clair"></div>
+    <div class="color-option" style="background-color: #000000;" data-color="#000000" title="Noir"></div>
 
+  </div>
+</div>
 
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const togglePaletteBtn = document.getElementById('toggle-palette-btn');
+    const colorPalette = document.getElementById('color-palette');
+    const colorOptions = document.querySelectorAll('.color-option');
+    const body = document.body;
+
+    togglePaletteBtn.addEventListener('click', () => {
+      colorPalette.classList.toggle('open');
+    });
+
+    colorOptions.forEach(option => {
+      option.addEventListener('click', () => {
+        const selectedColor = option.getAttribute('data-color');
+        body.style.backgroundColor = selectedColor;
+        localStorage.setItem('pageBackgroundColor', selectedColor);
+        colorPalette.classList.remove('open');
+      });
+    });
+
+    const savedColor = localStorage.getItem('pageBackgroundColor');
+    if (savedColor) {
+      body.style.backgroundColor = savedColor;
+    }
+
+   
+    document.addEventListener('click', (event) => {
+      if (!colorPalette.contains(event.target) && !togglePaletteBtn.contains(event.target)) {
+        colorPalette.classList.remove('open');
+      }
+    });
+  });
+</script>
 
 
 <button>Mon Parcours</button>
