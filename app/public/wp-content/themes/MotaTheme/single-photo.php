@@ -6,23 +6,23 @@ $photoId = get_field('photo');
 
 
 
-// Récupération des termes de la taxonomie 'annee' associés à l'article
+
 $annees_terms = get_the_terms(get_the_ID(), 'annee');
-// Vérification de l'existence des termes et non-vide
+
 if ($annees_terms && !is_wp_error($annees_terms)) {
-  // Prendre le premier terme, car un article peut avoir plusieurs termes
+  
   $annee = $annees_terms[0]->name;
 } else {
-  // Définition d'une valeur par défaut si aucun terme n'est trouvé
+  
   $annee = 'Non défini';
 }
 
-// Récupération des termes de la taxonomie 'categorie' et 'format'
+
 $categories = get_the_terms(get_the_ID(), 'categorie');
 $formats = get_the_terms(get_the_ID(), 'format');
 $FORMATS = $formats ? ucwords($formats[0]->name) : '';
 
-// Définissez les URLs des vignettes pour le post précédent et suivant
+
 $nextPost = get_next_post();
 $previousPost = get_previous_post();
 $previousThumbnailURL = $previousPost ? get_the_post_thumbnail_url($previousPost->ID, 'thumbnail') : '';
@@ -34,7 +34,7 @@ $nextThumbnailURL = $nextPost ? get_the_post_thumbnail_url($nextPost->ID, 'thumb
   <div class="galleryPhotos">
     <div class="detailPhoto">
       <div class="containerPhoto">
-        <!-- Affichage de l'image de la photo -->
+        
         <img src="<?php echo esc_url($photoId); ?>" alt="<?php echo esc_attr(get_the_title()); ?>">
       </div>
 
@@ -67,7 +67,7 @@ $nextThumbnailURL = $nextPost ? get_the_post_thumbnail_url($nextPost->ID, 'thumb
   <div class="contenairContact">
     <div class="contact">
       <p class="interesser">Ce projet vous intéresse ?</p>
-      <!-- Bouton de contact avec la référence comme attribut de données -->
+      
       <button id="boutonContact" data-reference="<?php echo esc_attr($reference); ?>">Contact</button>
     </div>
 
@@ -75,7 +75,7 @@ $nextThumbnailURL = $nextPost ? get_the_post_thumbnail_url($nextPost->ID, 'thumb
 
       <!-- Conteneur pour la miniature -->
       <div class="miniPicture" id="miniPicture">
-        <!-- La miniature sera chargée ici par JavaScript -->
+      
       </div>
 
       <div class="naviguationArrow">
@@ -100,7 +100,7 @@ $nextThumbnailURL = $nextPost ? get_the_post_thumbnail_url($nextPost->ID, 'thumb
     <?php
     // Récupération des catégories de la photo principale
     $categories = get_the_terms(get_the_ID(), 'categorie');
-    // Arguments de la requête pour récupérer les photos similaires
+    
     $args = array(
       'post_type' => 'photo',
       'posts_per_page' => 2,
@@ -113,21 +113,21 @@ $nextThumbnailURL = $nextPost ? get_the_post_thumbnail_url($nextPost->ID, 'thumb
         ),
       ),
     );
-    // Exécution de la requête WP_Query avec les arguments définis
+   
     $query = new WP_Query($args);
-    // Boucle à travers les photos similaires
+    
     while ($query->have_posts()) :
       $query->the_post();
-      // Récupération de l'ID de la photo et de la référence
+      
       $photoId = get_field('photo');
-      // Affiche le bloc de photo en utilisant un template part (partie de modèle)
-      get_template_part('template-parts/bloc-photo'); // bloc photo egale a 1 photo
+      
+      get_template_part('template-parts/bloc-photo');
     endwhile;
-    // Affiche un message si aucune photo similaire n'est trouvée
+   
     if (!$query->have_posts()) :
       echo '<p class="photoNotFound">Pas de photo similaire trouvée pour la catégorie.</p>';
     endif;
-    // Réinitialisation des données de post après la boucle de requête
+   
     wp_reset_postdata();
     ?>
   </div>

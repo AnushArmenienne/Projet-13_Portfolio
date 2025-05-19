@@ -5,6 +5,16 @@
   <div>
     <p class="citation"> "Il y a deux types de développeurs : ceux qui comprennent le code et ceux qui débuggent..."
     </p>
+
+    <script>
+      $(document).ready(function() {
+  $('.citation').hover(function() {
+    $(this).stop(true, false).animate({ opacity: 1, transform: 'scale(1)' }, 300);
+  }, function() {
+    $(this).stop(true, false).animate({ opacity: 0.8, transform: 'scale(0.95)' }, 300);
+  });
+});
+    </script>
   </div>
   <div class="banner1 wrapper">
     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/moi.png" alt="moi">
@@ -176,11 +186,9 @@
   (function() {
     "use strict";
 
-    // define variables
     var items = document.querySelectorAll(".timeline li");
 
-    // check if an element is in viewport
-    // http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport
+  
     function isElementInViewport(el) {
       var rect = el.getBoundingClientRect();
       return (
@@ -200,7 +208,7 @@
       }
     }
 
-    // listen for events
+    
     window.addEventListener("load", callbackFunc);
     window.addEventListener("resize", callbackFunc);
     window.addEventListener("scroll", callbackFunc);

@@ -5,27 +5,26 @@ $args = array(
     'post_type'      => 'photo',
  
     'posts_per_page' => 8,
-    // l’ordre de tri: croissant).
+   
     'order'          => 'ASC',
 );
-//La requête est effectuée avec WP_Query pour récupérer les articles correspondant aux critères définis dans $args.
+
 $photo_block = new WP_Query($args);
 
-// Vérification s'il y a des photos
+
 if ($photo_block->have_posts()) :
 
-    // Définir les arguments pour le bloc photo
+   
     set_query_var('photo_block_args', array('context' => 'front-page'));
 
-    // Boucle pour afficher chaque photo
+    
     while ($photo_block->have_posts()) :
         $photo_block->the_post();
-        //Pour chaque photo, le modèle bloc-photo est inclus en utilisant get_template_part().
-        get_template_part('template-parts/bloc-photo', get_post_format());//Le format de la photo est déterminé post format
+        
+        get_template_part('template-parts/bloc-photo', get_post_format());
     endwhile;
 
-    // Réinitialisation de la requête
-    //Après avoir parcouru toutes les photos, la requête est réinitialisée avec wp_reset_postdata().
+   
 
     wp_reset_postdata();
 else :
@@ -34,10 +33,7 @@ endif;
 ?>
 
 
-<!-- Bloc pour le chargement de plus de photos -->
- <!--  Cet attribut permet d’identifier le bouton.  -->
 <div id="load-moreContainer">
-    <!--  Cet attribut permet d’identifier le bouton data-page=1  -->
-    <!--data-url=""Cet attribut personnalisé stocke l’URL à laquelle charger davantage de photos-->
+    
     <button id="btnLoad-more" data-page="1" data-url="">Charger plus</button>
 </div>

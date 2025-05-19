@@ -4,7 +4,7 @@
 <main id="main" class="site-main" role="main">
 
 
-    <!-- Boucle WP pour affichage du contenu de la page -->
+    
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
             <h1><?php get_the_title(); ?></h1>

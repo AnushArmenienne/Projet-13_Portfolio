@@ -1,10 +1,10 @@
 function changeFilter(paged){
-  // Capture les valeurs des filtres
+  // Capture des valeurs des filtres
   const category = $("#categorie").val();
   const format = $("#format").val();
   const years = $("#annees").val();
   const page = (paged) ? $("#btnLoad-more").data("page") : 1;
-  //vérification (si les valeurs sont les valeurs par défaut)
+  //vérification (si les valeurs sont par défaut)
   const isDefaultValues = category === "" && format === "" && years === "";
   $.ajax({
     url: ajax_params.ajax_url,

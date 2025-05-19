@@ -1,13 +1,13 @@
 
 $(function () {
-  // Sélectionne l'élément avec l'ID "miniPicture"
+  
   const miniPicture = $("#miniPicture");
 
-  // Associe des gestionnaires d'événements aux flèches gauche et droite lorsque la souris survole
+  
   $(".arrow-left, .arrow-right").hover(
-    // Fonction exécutée lorsque la souris survole les flèches
+    
     function () {
-      // Affiche une miniature avec un lien vers l'URL cible et une image de miniature
+      
       miniPicture.css({
         visibility: "visible",
         opacity: 1,
@@ -17,9 +17,9 @@ $(function () {
       }">
                     </a>`);
     },
-    // Fonction exécutée lorsque la souris cesse de survoler les flèches
+   
     function () {
-      // Masque la miniature en la rendant invisible
+      
       miniPicture.css({
         visibility: "hidden",
         opacity: 0,
@@ -27,9 +27,9 @@ $(function () {
     }
   );
 
-  // Associe un gestionnaire d'événements de clic aux flèches gauche et droite
+  
   $(".arrow-left, .arrow-right").click(function () {
-    // Redirige l'utilisateur vers l'URL cible au clic sur une flèche
+   
     window.location.href = $(this).data("target-url");
   });
 });

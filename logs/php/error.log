@@ -1604,3 +1604,212 @@
 [13-May-2025 08:13:55 UTC] PHP Warning:  Undefined variable $reference in C:\Users\Lima\Local Sites\portfolioanush\app\public\wp-content\themes\MotaTheme\single-photo.php on line 71
 [13-May-2025 08:15:27 UTC] PHP Warning:  Undefined variable $reference in C:\Users\Lima\Local Sites\portfolioanush\app\public\wp-content\themes\MotaTheme\single-photo.php on line 71
 [13-May-2025 08:15:39 UTC] PHP Warning:  Undefined variable $reference in C:\Users\Lima\Local Sites\portfolioanush\app\public\wp-content\themes\MotaTheme\single-photo.php on line 71
+[15-May-2025 07:15:36 UTC] Filter values: Array
+(
+    [category] => css
+    [format] => 
+    [years] => 
+)
+
+[15-May-2025 07:15:36 UTC] Filter values: Array
+(
+    [category] => css
+    [format] => 
+    [years] => 
+)
+
+[15-May-2025 07:15:36 UTC] Photo ID: 119
+[15-May-2025 07:15:36 UTC] Reference: bf2400
+[15-May-2025 07:15:36 UTC] Photo ID: 119
+[15-May-2025 07:15:36 UTC] Reference: bf2400
+[15-May-2025 07:15:36 UTC] Photo ID: 122
+[15-May-2025 07:15:36 UTC] Reference: bf2387
+[15-May-2025 07:15:36 UTC] Photo ID: 159
+[15-May-2025 07:15:36 UTC] Reference: bf2397
+[15-May-2025 07:15:36 UTC] Photo ID: 122
+[15-May-2025 07:15:36 UTC] Reference: bf2387
+[15-May-2025 07:15:36 UTC] Photo ID: 155
+[15-May-2025 07:15:36 UTC] Reference: bf2398
+[15-May-2025 07:15:36 UTC] Photo ID: 153
+[15-May-2025 07:15:36 UTC] Reference: bf2399
+[15-May-2025 07:15:36 UTC] Photo ID: 159
+[15-May-2025 07:15:36 UTC] Reference: bf2397
+[15-May-2025 07:15:36 UTC] Photo ID: 155
+[15-May-2025 07:15:36 UTC] Reference: bf2398
+[15-May-2025 07:15:36 UTC] Photo ID: 153
+[15-May-2025 07:15:36 UTC] Reference: bf2399
+[15-May-2025 07:15:41 UTC] Filter values: Array
+(
+    [category] => php
+    [format] => 
+    [years] => 
+)
+
+[15-May-2025 07:15:41 UTC] Filter values: Array
+(
+    [category] => php
+    [format] => 
+    [years] => 
+)
+
+[15-May-2025 07:15:41 UTC] Photo ID: 159
+[15-May-2025 07:15:41 UTC] Reference: bf2397
+[15-May-2025 07:15:41 UTC] Photo ID: 159
+[15-May-2025 07:15:41 UTC] Reference: bf2397
+[15-May-2025 07:15:41 UTC] Photo ID: 153
+[15-May-2025 07:15:41 UTC] Reference: bf2399
+[15-May-2025 07:15:41 UTC] Photo ID: 153
+[15-May-2025 07:15:41 UTC] Reference: bf2399
+[15-May-2025 07:15:45 UTC] Filter values: Array
+(
+    [category] => php
+    [format] => 
+    [years] => date_asc
+)
+
+[15-May-2025 07:15:45 UTC] Filter values: Array
+(
+    [category] => php
+    [format] => 
+    [years] => date_asc
+)
+
+[15-May-2025 07:15:45 UTC] Photo ID: 159
+[15-May-2025 07:15:45 UTC] Reference: bf2397
+[15-May-2025 07:15:45 UTC] Photo ID: 159
+[15-May-2025 07:15:45 UTC] Reference: bf2397
+[15-May-2025 07:15:45 UTC] Photo ID: 153
+[15-May-2025 07:15:45 UTC] Reference: bf2399
+[15-May-2025 07:15:45 UTC] Photo ID: 153
+[15-May-2025 07:15:45 UTC] Reference: bf2399
+[15-May-2025 07:15:48 UTC] Filter values: Array
+(
+    [category] => php
+    [format] => facile
+    [years] => date_asc
+)
+
+[15-May-2025 07:15:48 UTC] Filter values: Array
+(
+    [category] => php
+    [format] => facile
+    [years] => date_asc
+)
+
+[15-May-2025 07:15:51 UTC] Filter values: Array
+(
+    [category] => php
+    [format] => difficile
+    [years] => date_asc
+)
+
+[15-May-2025 07:15:51 UTC] Filter values: Array
+(
+    [category] => php
+    [format] => difficile
+    [years] => date_asc
+)
+
+[15-May-2025 07:15:51 UTC] Photo ID: 153
+[15-May-2025 07:15:51 UTC] Reference: bf2399
+[15-May-2025 07:15:51 UTC] Photo ID: 153
+[15-May-2025 07:15:51 UTC] Reference: bf2399
+[15-May-2025 07:15:55 UTC] Filter values: Array
+(
+    [category] => php
+    [format] => moyen
+    [years] => date_asc
+)
+
+[15-May-2025 07:15:55 UTC] Filter values: Array
+(
+    [category] => php
+    [format] => moyen
+    [years] => date_asc
+)
+
+[15-May-2025 07:15:55 UTC] Photo ID: 159
+[15-May-2025 07:15:55 UTC] Photo ID: 159
+[15-May-2025 07:15:55 UTC] Reference: bf2397
+[15-May-2025 07:15:55 UTC] Reference: bf2397
+[15-May-2025 07:16:01 UTC] Filter values: Array
+(
+    [category] => 
+    [format] => moyen
+    [years] => date_asc
+)
+
+[15-May-2025 07:16:01 UTC] Filter values: Array
+(
+    [category] => 
+    [format] => moyen
+    [years] => date_asc
+)
+
+[15-May-2025 07:16:01 UTC] Photo ID: 119
+[15-May-2025 07:16:01 UTC] Reference: bf2400
+[15-May-2025 07:16:01 UTC] Photo ID: 119
+[15-May-2025 07:16:01 UTC] Reference: bf2400
+[15-May-2025 07:16:01 UTC] Photo ID: 122
+[15-May-2025 07:16:01 UTC] Reference: bf2387
+[15-May-2025 07:16:01 UTC] Photo ID: 159
+[15-May-2025 07:16:01 UTC] Reference: bf2397
+[15-May-2025 07:16:01 UTC] Photo ID: 122
+[15-May-2025 07:16:01 UTC] Photo ID: 174
+[15-May-2025 07:16:01 UTC] Reference: bf2387
+[15-May-2025 07:16:01 UTC] Reference: bf2391
+[15-May-2025 07:16:01 UTC] Photo ID: 159
+[15-May-2025 07:16:01 UTC] Photo ID: 155
+[15-May-2025 07:16:01 UTC] Reference: bf2397
+[15-May-2025 07:16:01 UTC] Reference: bf2398
+[15-May-2025 07:16:01 UTC] Photo ID: 174
+[15-May-2025 07:16:01 UTC] Reference: bf2391
+[15-May-2025 07:16:01 UTC] Photo ID: 155
+[15-May-2025 07:16:01 UTC] Reference: bf2398
+[15-May-2025 07:16:10 UTC] Filter values: Array
+(
+    [category] => 
+    [format] => facile
+    [years] => date_asc
+)
+
+[15-May-2025 07:16:10 UTC] Filter values: Array
+(
+    [category] => 
+    [format] => facile
+    [years] => date_asc
+)
+
+[15-May-2025 07:16:10 UTC] Photo ID: 120
+[15-May-2025 07:16:10 UTC] Photo ID: 120
+[15-May-2025 07:16:10 UTC] Reference: bf2388
+[15-May-2025 07:16:10 UTC] Reference: bf2388
+[15-May-2025 07:16:10 UTC] Photo ID: 147
+[15-May-2025 07:16:10 UTC] Photo ID: 147
+[15-May-2025 07:16:10 UTC] Reference: bf2386
+[15-May-2025 07:16:10 UTC] Reference: bf2386
+[15-May-2025 07:16:22 UTC] Filter values: Array
+(
+    [category] => 
+    [format] => facile
+    [years] => date_desc
+)
+
+[15-May-2025 07:16:22 UTC] Filter values: Array
+(
+    [category] => 
+    [format] => facile
+    [years] => date_desc
+)
+
+[15-May-2025 07:16:22 UTC] Photo ID: 147
+[15-May-2025 07:16:22 UTC] Photo ID: 147
+[15-May-2025 07:16:22 UTC] Reference: bf2386
+[15-May-2025 07:16:22 UTC] Reference: bf2386
+[15-May-2025 07:16:22 UTC] Photo ID: 120
+[15-May-2025 07:16:22 UTC] Photo ID: 120
+[15-May-2025 07:16:22 UTC] Reference: bf2388
+[15-May-2025 07:16:22 UTC] Reference: bf2388
+[19-May-2025 06:59:26 UTC] PHP Warning:  Undefined variable $reference in C:\Users\Lima\Local Sites\portfolioanush\app\public\wp-content\themes\MotaTheme\single-photo.php on line 71
+[19-May-2025 07:40:46 UTC] PHP Warning:  Undefined variable $reference in C:\Users\Lima\Local Sites\portfolioanush\app\public\wp-content\themes\MotaTheme\single-photo.php on line 71
+[19-May-2025 07:47:08 UTC] PHP Warning:  Undefined variable $reference in C:\Users\Lima\Local Sites\portfolioanush\app\public\wp-content\themes\MotaTheme\single-photo.php on line 71

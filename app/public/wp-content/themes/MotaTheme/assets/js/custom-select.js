@@ -1,8 +1,8 @@
 
 $(function () {
-  // Initialise le plugin Select2 pour les éléments qui ont la classe ".custom-select"
+  // Initialisation Select2 pour éléments avec la classe ".custom-select"
   $(".custom-select").select2({
-    // Définit la position du menu déroulant en dessous
+   
     dropdownPosition: "below",
   });
 });
